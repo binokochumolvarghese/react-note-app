@@ -40,7 +40,7 @@ const Note = ({ props }) => {
           />
           <br />
           <textarea
-            className="w-full bg-yellow-50"
+            className="w-full bg-yellow-50 h-50"
             disabled={true}
             id="note"
             name="note"

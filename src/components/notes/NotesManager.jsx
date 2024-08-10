@@ -32,8 +32,8 @@ const NotesManager = () => {
   return (
     <>
      <Suspense fallback={<Loading />}>
-      <div className="container mx-auto px-4 ">
-        <div className="grid gap-4 md:grid-cols-3 sm:grid-cols-1 ">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-flow-row gap-4 md:grid-cols-3 sm:grid-cols-1 ">
           {noteData.map((note) => {
             return (
               <Note
